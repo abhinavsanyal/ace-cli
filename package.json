@@ -1,0 +1,23 @@
+{
+  "name": "primal-auto-gui-system",
+  "version": "1.0.0",
+  "description": "Ai Agent implementation with jsAutoGUI as a tool",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "author": "Abhinav Sanyal",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.2.12",
+    "jimp": "^0.22.10",
+    "openai": "^4.24.1",
+    "robotjs": "^0.6.0",
+    "screenshot-desktop": "^1.15.0",
+    "yargs": "^17.7.2"
+  }
+}
